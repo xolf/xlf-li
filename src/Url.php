@@ -12,7 +12,7 @@ class Url
     {
         $url = 'https://xlf.li?t=' . $url;
         if($source) $url .= '&?s=' . $source;
-        return $source;
+        return $url;
     }
 
 }
