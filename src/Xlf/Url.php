@@ -1,5 +1,7 @@
 <?php
 
+echo 'Was geht';
+
 /**
  * Xolf
  */
