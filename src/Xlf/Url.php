@@ -1,6 +1,6 @@
 <?php
 
-echo 'Was geht';
+namespace Xolf\Xlf;
 
 /**
  * Xolf
