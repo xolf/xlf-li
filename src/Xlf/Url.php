@@ -1,5 +1,7 @@
 <?php
 
+echo 'Loaded';
+
 namespace Xolf\Xlf;
 
 /**
