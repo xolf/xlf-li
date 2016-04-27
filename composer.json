@@ -1,4 +1,11 @@
 {
     "name": "xolf/xlf-li",
-    "description": "A Php interface for http://xlf.li"
+    "description": "A Php interface for http://xlf.li",
+    "keywords": ["url", "url shortener", "xolf", "tracking"],
+    "homepage": "http://xlf.li",
+    "autoload": {
+        "psr-0" : {
+            "Xolf_" : "src/"
+        }
+    }
 }
