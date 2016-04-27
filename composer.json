@@ -3,5 +3,10 @@
     "description": "A Php interface for http://xlf.li",
     "keywords": ["url", "url shortener", "xolf", "tracking"],
     "homepage": "http://xlf.li",
-    "license": "Apache 2"
+    "license": "Apache 2",
+    "autoload": {
+        "psr-4": {
+            "Xolf\\XlfLi\\": "src"
+        }
+    }
 }

@@ -2,7 +2,7 @@
 
 echo 'Loaded';
 
-namespace Xolf\Xlf;
+namespace Xolf\XlfLi;
 
 /**
  * Xolf
