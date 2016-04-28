@@ -8,10 +8,11 @@ namespace Xolf\XlfLi;
 class Url
 {
 
-    public function link($url = null, $text = $url, $source = false)
+    public function link($url = null, $text = false, $source = false)
     {
+        if(!$text) $text = $url;
         $link = self::get($url, $source);
-        return '<a href="' . $link . '">' . $url . '</a>';
+        return '<a href="' . $link . '" rel="nofollow">' . $url . '</a>';
     }
 
     public function get($url = null, $source = false)
